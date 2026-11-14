@@ -1,0 +1,13 @@
+ASIAN CAR CLUB — START HERE
+
+1) Extract this ZIP.
+2) Open README.md and follow "Run locally".
+3) Configure server/.env using server/.env.example.
+4) In server folder run: npm install && npm run seed && npm run dev
+5) In client folder run: copy .env.example .env, npm install, npm run dev
+6) Open http://localhost:5173
+
+Admin login is the ADMIN_EMAIL / ADMIN_PASSWORD configured in server/.env.
+Never publish .env or use a weak admin password.
+
+Live deployment needs your own MongoDB Atlas, hosting accounts, domain (optional), and Razorpay account/API keys. This ZIP cannot publish the site or create accounts on your behalf. Read README.md for the deployment checklist.
